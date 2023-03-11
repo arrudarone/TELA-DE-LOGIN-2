@@ -6,9 +6,22 @@
 1025px — 1200px: Desktops, large screens.
 1201px and more — Extra large screens, TV.*/
 
-@media screen  and (min-width: 481px) and (max-width: 768px){
+@media screen  and (min-width: 560px) and (max-width: 880px){
 
+    body{
+        background-image: linear-gradient(to left, #205f64 75%, #3db7c2  );
+    }
+    section#info{
+        width: 490px;
+        height: ;
+    }
 }
 @media screen and (min-width: 769px) {
+    body{
+        background-image: linear-gradient(to left,  #205f64 75%, #3db7c2   );
+    }
+    section#info{
+        width: 650px;
+    }
     
 }
