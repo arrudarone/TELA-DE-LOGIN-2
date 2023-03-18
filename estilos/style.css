@@ -49,6 +49,35 @@ section#info > div#form{
     display: block;
 }
 a{
+    border: 2px solid black;
+    padding: 5px;
+    width: 70%;
     text-decoration: none;
     color: #599499 ;
+}
+form >input[type = submit]{
+    box-sizing: border-box;
+    display: block;
+    width: 100%; 
+    padding: 8px;
+    background-color: #599499 ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+
+
+} 
+form >input[type = submit]:hover{
+    background-color: #69b3b9;
+}
+form > a.botao{
+    text-align: center;
+    padding: 8px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%; 
+    background-color: #caebee ;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
 }
