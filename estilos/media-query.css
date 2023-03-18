@@ -13,21 +13,26 @@
     }
     section#info{
         width: 490px;
-        height: ;
+        height: x;
     }
     section#info > div#img{
+        width: 30%;
+        height: 100%;
+        border-radius: 20px 0px 0px 20px;
+        background-size: cover;
+        
         float: left;
     }
     section#info > div#form {
+        width: 60%;
         float: right;
     }
 }
-@media screen and (min-width: 769px) {
-    body{
-        background-image: linear-gradient(to left,  #205f64 75%, #3db7c2   );
-    }
+@media screen and (min-width: 881px ) {
     section#info{
-        width: 650px;
+        width: 700px;
+        height: x;
+        
     }
-    
+
 }

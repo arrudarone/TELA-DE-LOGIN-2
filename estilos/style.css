@@ -34,9 +34,13 @@ section#info{
 
 }
 section#info > div#img {
+    display: block;
     background: url(../imagens/padrao.jpeg) bottom right  ;
     background-size: cover ; /*background size não funciona dentro da propriedade background*/
     border-radius: 20px 20px 0px 0px ;
     width: 100%;
     height: 28vh;
+}
+section#info > div#form{
+    display: block;
 }
