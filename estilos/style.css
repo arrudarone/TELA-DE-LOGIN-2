@@ -31,6 +31,10 @@ section#info{
    left: 50%;
    transform: translate(-50%, -50%);
 
+   /*animação*/
+
+   transition: width 0.6s , height 0.6s;
+   transition-timing-function: ease;
 
 }
 section#info > div#img {
@@ -43,4 +47,8 @@ section#info > div#img {
 }
 section#info > div#form{
     display: block;
+}
+a{
+    text-decoration: none;
+    color: #599499 ;
 }

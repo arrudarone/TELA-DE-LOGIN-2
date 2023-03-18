@@ -21,13 +21,25 @@
                     <h1>Login</h1>
                     <p>Faça login para acessar a sua página de informações principal.</p>
                     <form action="dados.php" method="post" id="formulario">
-                        <div>
-                            
+                        <div class="campo">
+                            <span class="material-symbols-outlined">
+                                person
+                                </span>
+                            <input type="email" name="email" id="iemail" required placeholder="Email">
+                            <label for="iemail"></label>
                         </div>
-                        <div>
-
+                        <div class="campo">
+                            <span class="material-symbols-outlined">
+                                vpn_key
+                                </span>
+                            <input type="password" name="senha" id="isenha" required placeholder="Senha" minlength="8" maxlength="15">
+                            <label for="isenha"></label>
                         </div>
-                        
+                            <input type="submit" value="Enviar">
+                            <a href="forgot.html">Esqueci a senha</a>
+                            <span class="material-symbols-outlined">
+                                mail
+                                </span>
                     </form>
                 </div>
             </section>
