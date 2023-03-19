@@ -49,24 +49,21 @@ section#info > div#img {
 section#info > div#form{
     display: block;
 }
-a{
-    border: 2px solid black;
-    width: 70%;
-    text-decoration: none;
-    color: #599499 ;
-}
+
 form >input[type = submit]{
     text-align: center;
     box-sizing: border-box;
     display: block;
     width: 80%; 
     padding: 8px;
-    background-color: #599499 ;
+    background-color: #2f98a1 ;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 10%;
 
 
 } 
@@ -79,15 +76,20 @@ form > a.botao{
     display: block;
     box-sizing: border-box;
     width: 80%; 
-    background-color: #caebee ;
+    background-color: #68a9ff ;
     color: rgb(0, 0, 0);
     cursor: pointer;
+    margin-left: 10%;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+a{
+    text-decoration: none;
+    
 }
 .campo{
     margin-bottom: 2px;
     margin-left: 10%;
-    
-    padding: 5px;
     border-radius: 40%;
     
 }
