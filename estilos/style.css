@@ -103,3 +103,13 @@ h1{
 p{
     text-align: center;
 }
+span#crt{
+    font-size: 1.2em;
+    padding: 1px;
+    background-color:#68a9ff ;
+    color: white;
+}
+input#iemail, input#isenha{
+    height: 20px;
+    
+}
