@@ -116,9 +116,10 @@ span#crt{
     color: white;
 }
 input#iemail, input#isenha{
-    height: 20px;
+    
     
 } input#iemail, input#isenha { 
+    height: 20px;
     background-color: #bcf9ff; 
     border-radius: 7px; 
     width: 70%;    
@@ -130,4 +131,10 @@ input#iemail, input#isenha{
 a.botao:hover{
     color: white;
     
+}
+div#form > p{
+   margin-bottom: 10px;
+}
+input#isenha{
+    margin-bottom: 8px;
 }
