@@ -98,10 +98,11 @@ a{
 }
 span{
     background-color: #a1e3e9;
-    padding: 3%;
+    padding: 2%;
     border-radius: 50%;
     color: white;
     text-shadow: 1px 1px black;
+    font-size: 0.8em;
 }
 h1{
     text-align: center;
